@@ -4,6 +4,8 @@ This project was adapted from one I completed in CS211 Computer Architecture.
 Originally written in C with no visualization, I decided to transform the project into
 a visual tool that could help others understand how caches operate.
 
+C code for cache system was transformed into Typescript then converted into Javascript and added drawing functionality.
+
 The input is a set of 48-bit memory addresses with either a read (R) or write (W) on the left column. 
 
 The visualization uses a two level cache to more closely simulate what modern CPU's use. In my implementation
