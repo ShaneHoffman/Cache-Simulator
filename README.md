@@ -20,3 +20,9 @@ This process will start in L1 then move onto L2.
 
 The empty squares of each block represent data from memory. To keep the simulation about pure cache mechanics, this part is not necessary.
 
+Test it out at: https://shanehoffman.github.io/CacheSimulator/
+
+# TO-DO
+  - Add an input check for wrong inputs
+  - Update sizing in more optimally for different screens, (works best with 1080p or higher)
+  - Add a better reset function
