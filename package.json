@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  },
+  "dependencies": {
+    "line-reader": "^0.4.0"
+  }
+}

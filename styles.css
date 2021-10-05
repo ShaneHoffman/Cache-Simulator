@@ -1,0 +1,57 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  
+  background-color: #faebd7;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: max(3vw, 1rem);
+}
+
+.dashboard > canvas:first-of-type {
+  grid-area: 1 / 2 / span 2 / span 1;
+}
+
+/* #secondc {
+  border: 1px solid black;
+} */
+
+.container > canvas:nth-of-type(2) {
+  grid-area: 1 / 2 / span 2 / span 1;
+}
+
+header > h1 {
+  margin: 0.25em;
+  
+  color: black;
+  font-size: 60px;
+  text-align: center;
+}
+
+#myForm {
+  width: max-content;
+  flex: 0;
+  
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: max(1vw, 1rem);
+  align-items: center;
+  padding: 0 0.75rem;
+  
+  color: black;
+  font-size: 20px;
+  font-family: "Courier New";
+}
+
+#myForm > .span2, #myForm > input[type=submit] {
+  grid-column: 1 / span 2;
+}
+
+#myForm > input[type=submit]{
+  justify-self: end;
+  
+  width: max-content;
+  padding: 0 0.75rem;
+}

@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title> Cache Simulator </title>
+  <link rel="stylesheet" href="styles.css">
+  <script type= "module" src="cache.js"></script>
+  <script type= "module" src="main.js"></script>
+</head>
+
+<header>
+  <h1>Cache Simulator</h1>
+</header>
+
+<main class="dashboard">
+  <form id="myForm" class="form">
+
+  <label for="c-type">Choose your L1 cache type</label>
+  <select id="c-type" name="c-type">
+    <option value="direct">Direct</option>
+    <option value="fullassoc">Full Assoc</option>
+    <option value="nassoc">N Assoc</option>
+  </select>
+
+  <label for="c2-type">Choose your L2 cache type</label>
+  <select id="c2-type" name="c2-type">
+    <option value="direct">Direct</option>
+    <option value="fullassoc">Full Assoc</option>
+    <option value="nassoc">N Assoc</option>
+  </select>
+
+  <label for="policy">Choose your policy</label>
+  <select id="policy" name="policy">
+    <option value="fifo">FIFO</option>
+    <option value="lru">LRU</option>
+  </select>
+
+  <label for="speed">Simulation Speed</label>
+  <select id="speed" name="speed">
+    <option value="1">1x</option>
+    <option value="2">2x</option>
+    <option value="5">5x</option>
+    <option value="10">10x</option>
+    <option value="100">100x</option>
+    <option value="1000">1000x</option>
+  </select>
+
+    
+  <label for="address" class="span2">Enter addresses here: </label>
+  <textarea id="address" class="span2" name="address" rows="10" cols="40"
+   placeholder="W 0x9cb2874&#10;R 0xbf8ef498"></textarea>
+    
+  <input type="submit" id="submit" value="Submit">
+  <button class="button">Restart</button>
+</form>
+
+  <canvas id= "firstc"></canvas>
+  <canvas id= "secondc"></canvas>
+</main>
+
+</html>
