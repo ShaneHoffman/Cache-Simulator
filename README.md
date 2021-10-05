@@ -18,5 +18,5 @@ If nothing is found it will highlight both red, if the tag is found it will high
 it has found it's place. Once the tag is placed both set and block will highlight green.
 This process will start in L1 then move onto L2.
 
-
+The empty squares of each block represent data from memory. To keep the simulation about pure cache mechanics, this part is not necessary.
 
