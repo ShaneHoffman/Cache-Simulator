@@ -22,7 +22,7 @@ This process will start in L1 then move onto L2.
 
 The empty squares of each block represent data from memory. To keep the simulation about pure cache mechanics, this part is not necessary.
 
-Test it out at: https://shanehoffman.github.io/CacheSimulator/
+Test it out at: https://shanehoffman.github.io/Cache-Simulator/
 
 # TO-DO
   - Add an input check for wrong inputs
